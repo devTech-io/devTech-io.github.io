@@ -1,0 +1,34 @@
+<view title="home" hide-back-button="true">
+    <content has-header="true" padding="true">
+        <div class="list">
+
+            <div class="item item-divider">
+                {{ 'Contact Us' | i18n }}...
+            </div>
+
+            <a class="item item-icon-right item" href="tel:+15145153469">
+                {{'Call' | i18n }}
+                <i class="icon ion-ios7-telephone"></i>
+            </a>
+
+            <a class="item item-icon-right" href="mailto:consulting@malix.com">
+                {{'Email' | i18n }}
+                <i class="icon ion-email"></i>
+            </a>
+        </div>
+    </content>
+    <div class="tabs tabs-icon-top tabs-dark">
+        <a class="tab-item" href="#/home">
+            <i class="icon ion-home"></i>
+            {{ 'Home' | i18n }}
+        </a>
+        <a class="tab-item" href="#/contact">
+            <i class="icon ion-at"></i>
+            {{ 'Contact' | i18n }}
+        </a>
+        <div class="tab-item" ng-click="toggle_language()">
+            <i class="icon ion-ios7-world-outline"></i>
+            {{ 'SWITCH_LANGUAGE' | i18n }}
+        </div>
+    </div>
+</view>

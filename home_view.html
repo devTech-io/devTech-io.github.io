@@ -1,0 +1,29 @@
+<view title="home" hide-back-button="true">
+    <content has-header="true" padding="true">
+        <div class="list">
+
+            <h1 class="item item-divider">
+                devTech.io
+            </h1>
+
+            <a class="item item-icon-right">
+                {{ 'more to come...' | i18n }}
+                <i class="icon ion-checkmark-circled"></i>
+            </a>
+        </div>
+    </content>
+    <div class="tabs tabs-icon-top tabs-dark">
+        <a class="tab-item" href="#/home">
+            <i class="icon ion-home"></i>
+            {{ 'Home' | i18n }}
+        </a>
+        <a class="tab-item" href="#/contact">
+            <i class="icon ion-at"></i>
+            {{ 'Contact' | i18n }}
+        </a>
+        <div class="tab-item" ng-click="toggle_language()">
+            <i class="icon ion-ios7-world-outline"></i>
+            {{ 'SWITCH_LANGUAGE' | i18n }}
+        </div>
+    </div>
+</view>

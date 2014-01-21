@@ -1,0 +1,1408 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'ionic' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose cache add [ 'ionic', null ]
+5 verbose cache add name=undefined spec="ionic" args=["ionic",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ionic',
+6 verbose parsed url   path: 'ionic',
+6 verbose parsed url   href: 'ionic' }
+7 silly lockFile 00d10074-ionic ionic
+8 verbose lock ionic /Users/malix/.npm/00d10074-ionic.lock
+9 silly lockFile 00d10074-ionic ionic
+10 silly lockFile 00d10074-ionic ionic
+11 verbose addNamed [ 'ionic', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 966fc04a-ionic ionic@
+14 verbose lock ionic@ /Users/malix/.npm/966fc04a-ionic.lock
+15 silly addNameRange { name: 'ionic', range: '*', hasData: false }
+16 verbose url raw ionic
+17 verbose url resolving [ 'https://registry.npmjs.org/', './ionic' ]
+18 verbose url resolved https://registry.npmjs.org/ionic
+19 info trying registry request attempt 1 at 09:55:44
+20 http GET https://registry.npmjs.org/ionic
+21 http 200 https://registry.npmjs.org/ionic
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Tue, 21 Jan 2014 14:55:45 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+22 silly registry.get     etag: '"5ERI55JJ3JZZAZ1IY5OG1Y8VC"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'content-length': '5636',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1390316144.942112923,VS0,VE309',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'ionic', range: '*', hasData: true }
+24 silly addNameRange versions [ 'ionic', [ '0.9.6', '0.9.8', '0.9.9', '0.9.10' ] ]
+25 verbose addNamed [ 'ionic', '0.9.10' ]
+26 verbose addNamed [ '0.9.10', '0.9.10' ]
+27 silly lockFile 692e5f71-ionic-0-9-10 ionic@0.9.10
+28 verbose lock ionic@0.9.10 /Users/malix/.npm/692e5f71-ionic-0-9-10.lock
+29 silly lockFile 0ffa59a7-npmjs-org-ionic-ionic-0-9-10-tgz https://registry.npmjs.org/ionic/-/ionic-0.9.10.tgz
+30 verbose lock https://registry.npmjs.org/ionic/-/ionic-0.9.10.tgz /Users/malix/.npm/0ffa59a7-npmjs-org-ionic-ionic-0-9-10-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic/-/ionic-0.9.10.tgz',
+31 verbose addRemoteTarball   'eeb2014da96c41cafcd4fda29344606c80416bfb' ]
+32 info retry fetch attempt 1 at 09:55:45
+33 verbose fetch to= /Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/tmp.tgz
+34 http GET https://registry.npmjs.org/ionic/-/ionic-0.9.10.tgz
+35 http 200 https://registry.npmjs.org/ionic/-/ionic-0.9.10.tgz
+36 verbose tar unpack /Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/tmp.tgz
+37 silly lockFile b32aaa0b-5391-0-32005629944615066-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/package
+38 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/package /Users/malix/.npm/b32aaa0b-5391-0-32005629944615066-package.lock
+39 silly lockFile 92ab63b6-5391-0-32005629944615066-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/tmp.tgz
+40 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/tmp.tgz /Users/malix/.npm/92ab63b6-5391-0-32005629944615066-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry LICENSE
+46 silly gunzTarPerm extractEntry bin/ionic
+47 silly gunzTarPerm extractEntry lib/ionic.js
+48 silly gunzTarPerm extractEntry lib/ionic/build.js
+49 silly gunzTarPerm extractEntry lib/ionic/platform.js
+50 silly gunzTarPerm extractEntry lib/ionic/run.js
+51 silly gunzTarPerm extractEntry lib/ionic/start.js
+52 silly gunzTarPerm extractEntry lib/ionic/task.js
+53 silly gunzTarPerm extractEntry template/index.html
+54 silly lockFile b32aaa0b-5391-0-32005629944615066-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/package
+55 silly lockFile b32aaa0b-5391-0-32005629944615066-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/package
+56 silly lockFile 92ab63b6-5391-0-32005629944615066-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/tmp.tgz
+57 silly lockFile 92ab63b6-5391-0-32005629944615066-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/tmp.tgz
+58 verbose tar pack [ '/Users/malix/.npm/ionic/0.9.10/package.tgz',
+58 verbose tar pack   '/Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/package' ]
+59 verbose tarball /Users/malix/.npm/ionic/0.9.10/package.tgz
+60 verbose folder /Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/package
+61 silly lockFile b32aaa0b-5391-0-32005629944615066-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/package
+62 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/package /Users/malix/.npm/b32aaa0b-5391-0-32005629944615066-package.lock
+63 silly lockFile 7fbf5ca0-lix-npm-ionic-0-9-10-package-tgz tar:///Users/malix/.npm/ionic/0.9.10/package.tgz
+64 verbose lock tar:///Users/malix/.npm/ionic/0.9.10/package.tgz /Users/malix/.npm/7fbf5ca0-lix-npm-ionic-0-9-10-package-tgz.lock
+65 silly lockFile b32aaa0b-5391-0-32005629944615066-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/package
+66 silly lockFile b32aaa0b-5391-0-32005629944615066-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145391-0.32005629944615066/package
+67 silly lockFile 7fbf5ca0-lix-npm-ionic-0-9-10-package-tgz tar:///Users/malix/.npm/ionic/0.9.10/package.tgz
+68 silly lockFile 7fbf5ca0-lix-npm-ionic-0-9-10-package-tgz tar:///Users/malix/.npm/ionic/0.9.10/package.tgz
+69 silly lockFile fb19fd31-s-malix-npm-ionic-0-9-10-package /Users/malix/.npm/ionic/0.9.10/package
+70 verbose lock /Users/malix/.npm/ionic/0.9.10/package /Users/malix/.npm/fb19fd31-s-malix-npm-ionic-0-9-10-package.lock
+71 silly lockFile fb19fd31-s-malix-npm-ionic-0-9-10-package /Users/malix/.npm/ionic/0.9.10/package
+72 silly lockFile fb19fd31-s-malix-npm-ionic-0-9-10-package /Users/malix/.npm/ionic/0.9.10/package
+73 verbose tar unpack /Users/malix/.npm/ionic/0.9.10/package.tgz
+74 silly lockFile f33a5486-s-malix-npm-ionic-0-9-10-package tar:///Users/malix/.npm/ionic/0.9.10/package
+75 verbose lock tar:///Users/malix/.npm/ionic/0.9.10/package /Users/malix/.npm/f33a5486-s-malix-npm-ionic-0-9-10-package.lock
+76 silly lockFile 7fbf5ca0-lix-npm-ionic-0-9-10-package-tgz tar:///Users/malix/.npm/ionic/0.9.10/package.tgz
+77 verbose lock tar:///Users/malix/.npm/ionic/0.9.10/package.tgz /Users/malix/.npm/7fbf5ca0-lix-npm-ionic-0-9-10-package-tgz.lock
+78 silly gunzTarPerm modes [ '755', '644' ]
+79 silly gunzTarPerm extractEntry package.json
+80 silly gunzTarPerm extractEntry .npmignore
+81 silly gunzTarPerm extractEntry README.md
+82 silly gunzTarPerm extractEntry LICENSE
+83 silly gunzTarPerm extractEntry bin/ionic
+84 silly gunzTarPerm extractEntry lib/ionic.js
+85 silly gunzTarPerm extractEntry lib/ionic/build.js
+86 silly gunzTarPerm extractEntry lib/ionic/platform.js
+87 silly gunzTarPerm extractEntry lib/ionic/run.js
+88 silly gunzTarPerm extractEntry lib/ionic/start.js
+89 silly gunzTarPerm extractEntry lib/ionic/task.js
+90 silly gunzTarPerm extractEntry template/index.html
+91 silly lockFile f33a5486-s-malix-npm-ionic-0-9-10-package tar:///Users/malix/.npm/ionic/0.9.10/package
+92 silly lockFile f33a5486-s-malix-npm-ionic-0-9-10-package tar:///Users/malix/.npm/ionic/0.9.10/package
+93 silly lockFile 7fbf5ca0-lix-npm-ionic-0-9-10-package-tgz tar:///Users/malix/.npm/ionic/0.9.10/package.tgz
+94 silly lockFile 7fbf5ca0-lix-npm-ionic-0-9-10-package-tgz tar:///Users/malix/.npm/ionic/0.9.10/package.tgz
+95 verbose chmod /Users/malix/.npm/ionic/0.9.10/package.tgz 644
+96 verbose chown /Users/malix/.npm/ionic/0.9.10/package.tgz [ 36397529, 132145106 ]
+97 silly lockFile 0ffa59a7-npmjs-org-ionic-ionic-0-9-10-tgz https://registry.npmjs.org/ionic/-/ionic-0.9.10.tgz
+98 silly lockFile 0ffa59a7-npmjs-org-ionic-ionic-0-9-10-tgz https://registry.npmjs.org/ionic/-/ionic-0.9.10.tgz
+99 silly lockFile 692e5f71-ionic-0-9-10 ionic@0.9.10
+100 silly lockFile 692e5f71-ionic-0-9-10 ionic@0.9.10
+101 silly lockFile 966fc04a-ionic ionic@
+102 silly lockFile 966fc04a-ionic ionic@
+103 silly resolved [ { name: 'ionic',
+103 silly resolved     version: '0.9.10',
+103 silly resolved     preferGlobal: true,
+103 silly resolved     description: 'A tool for creating and building Ionic Framework mobile apps.',
+103 silly resolved     homepage: 'http://ionicframework.com/',
+103 silly resolved     bin: { ionic: 'bin/ionic' },
+103 silly resolved     keywords:
+103 silly resolved      [ 'ionic',
+103 silly resolved        'ionic framework',
+103 silly resolved        'mobile',
+103 silly resolved        'html5',
+103 silly resolved        'cordova',
+103 silly resolved        'phonegap' ],
+103 silly resolved     repository:
+103 silly resolved      { type: 'git',
+103 silly resolved        url: 'https://github.com/driftyco/ionic-cli.git' },
+103 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+103 silly resolved     author: { name: 'Max Lynch', email: 'max@drifty.com' },
+103 silly resolved     license: 'MIT',
+103 silly resolved     dependencies:
+103 silly resolved      { cordova: '~3.2.0',
+103 silly resolved        request: '2.27.0',
+103 silly resolved        shelljs: '0.2.6',
+103 silly resolved        unzip: '0.1.9',
+103 silly resolved        ncp: '0.4.2',
+103 silly resolved        optimist: '0.6.0' },
+103 silly resolved     readme: 'ionic-cli\n=========\n\nThe Ionic Framework command line utility\n',
+103 silly resolved     readmeFilename: 'README.md',
+103 silly resolved     bugs: { url: 'https://github.com/driftyco/ionic-cli/issues' },
+103 silly resolved     _id: 'ionic@0.9.10',
+103 silly resolved     dist: { shasum: '1730edd3a2c76f5a9bf88e7853946cb94c663c16' },
+103 silly resolved     _from: 'ionic@',
+103 silly resolved     _resolved: 'https://registry.npmjs.org/ionic/-/ionic-0.9.10.tgz' } ]
+104 info install ionic@0.9.10 into /usr/local/lib
+105 info installOne ionic@0.9.10
+106 info /usr/local/lib/node_modules/ionic unbuild
+107 verbose tar unpack /Users/malix/.npm/ionic/0.9.10/package.tgz
+108 silly lockFile 49903aa3-usr-local-lib-node-modules-ionic tar:///usr/local/lib/node_modules/ionic
+109 verbose lock tar:///usr/local/lib/node_modules/ionic /Users/malix/.npm/49903aa3-usr-local-lib-node-modules-ionic.lock
+110 silly lockFile 7fbf5ca0-lix-npm-ionic-0-9-10-package-tgz tar:///Users/malix/.npm/ionic/0.9.10/package.tgz
+111 verbose lock tar:///Users/malix/.npm/ionic/0.9.10/package.tgz /Users/malix/.npm/7fbf5ca0-lix-npm-ionic-0-9-10-package-tgz.lock
+112 silly gunzTarPerm modes [ '755', '644' ]
+113 silly gunzTarPerm extractEntry package.json
+114 silly gunzTarPerm extractEntry .npmignore
+115 silly gunzTarPerm extractEntry README.md
+116 silly gunzTarPerm extractEntry LICENSE
+117 silly gunzTarPerm extractEntry bin/ionic
+118 silly gunzTarPerm extractEntry lib/ionic.js
+119 silly gunzTarPerm extractEntry lib/ionic/build.js
+120 silly gunzTarPerm extractEntry lib/ionic/platform.js
+121 silly gunzTarPerm extractEntry lib/ionic/run.js
+122 silly gunzTarPerm extractEntry lib/ionic/start.js
+123 silly gunzTarPerm extractEntry lib/ionic/task.js
+124 silly gunzTarPerm extractEntry template/index.html
+125 silly lockFile 49903aa3-usr-local-lib-node-modules-ionic tar:///usr/local/lib/node_modules/ionic
+126 silly lockFile 49903aa3-usr-local-lib-node-modules-ionic tar:///usr/local/lib/node_modules/ionic
+127 silly lockFile 7fbf5ca0-lix-npm-ionic-0-9-10-package-tgz tar:///Users/malix/.npm/ionic/0.9.10/package.tgz
+128 silly lockFile 7fbf5ca0-lix-npm-ionic-0-9-10-package-tgz tar:///Users/malix/.npm/ionic/0.9.10/package.tgz
+129 info preinstall ionic@0.9.10
+130 verbose readDependencies using package.json deps
+131 verbose readDependencies using package.json deps
+132 verbose cache add [ 'request@2.27.0', null ]
+133 verbose cache add name=undefined spec="request@2.27.0" args=["request@2.27.0",null]
+134 verbose parsed url { protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: 'request@2.27.0',
+134 verbose parsed url   path: 'request@2.27.0',
+134 verbose parsed url   href: 'request@2.27.0' }
+135 verbose cache add name="request" spec="2.27.0" args=["request","2.27.0"]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: '2.27.0',
+136 verbose parsed url   path: '2.27.0',
+136 verbose parsed url   href: '2.27.0' }
+137 verbose addNamed [ 'request', '2.27.0' ]
+138 verbose addNamed [ '2.27.0', '2.27.0' ]
+139 silly lockFile 7b48fbe0-request-2-27-0 request@2.27.0
+140 verbose lock request@2.27.0 /Users/malix/.npm/7b48fbe0-request-2-27-0.lock
+141 verbose cache add [ 'ncp@0.4.2', null ]
+142 verbose cache add name=undefined spec="ncp@0.4.2" args=["ncp@0.4.2",null]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: 'ncp@0.4.2',
+143 verbose parsed url   path: 'ncp@0.4.2',
+143 verbose parsed url   href: 'ncp@0.4.2' }
+144 verbose cache add name="ncp" spec="0.4.2" args=["ncp","0.4.2"]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: '0.4.2',
+145 verbose parsed url   path: '0.4.2',
+145 verbose parsed url   href: '0.4.2' }
+146 verbose addNamed [ 'ncp', '0.4.2' ]
+147 verbose addNamed [ '0.4.2', '0.4.2' ]
+148 silly lockFile e43cb36a-ncp-0-4-2 ncp@0.4.2
+149 verbose lock ncp@0.4.2 /Users/malix/.npm/e43cb36a-ncp-0-4-2.lock
+150 verbose cache add [ 'shelljs@0.2.6', null ]
+151 verbose cache add name=undefined spec="shelljs@0.2.6" args=["shelljs@0.2.6",null]
+152 verbose parsed url { protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: 'shelljs@0.2.6',
+152 verbose parsed url   path: 'shelljs@0.2.6',
+152 verbose parsed url   href: 'shelljs@0.2.6' }
+153 verbose cache add name="shelljs" spec="0.2.6" args=["shelljs","0.2.6"]
+154 verbose parsed url { protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: '0.2.6',
+154 verbose parsed url   path: '0.2.6',
+154 verbose parsed url   href: '0.2.6' }
+155 verbose addNamed [ 'shelljs', '0.2.6' ]
+156 verbose addNamed [ '0.2.6', '0.2.6' ]
+157 silly lockFile 542b9617-shelljs-0-2-6 shelljs@0.2.6
+158 verbose lock shelljs@0.2.6 /Users/malix/.npm/542b9617-shelljs-0-2-6.lock
+159 verbose cache add [ 'optimist@0.6.0', null ]
+160 verbose cache add name=undefined spec="optimist@0.6.0" args=["optimist@0.6.0",null]
+161 verbose parsed url { protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: 'optimist@0.6.0',
+161 verbose parsed url   path: 'optimist@0.6.0',
+161 verbose parsed url   href: 'optimist@0.6.0' }
+162 verbose cache add name="optimist" spec="0.6.0" args=["optimist","0.6.0"]
+163 verbose parsed url { protocol: null,
+163 verbose parsed url   slashes: null,
+163 verbose parsed url   auth: null,
+163 verbose parsed url   host: null,
+163 verbose parsed url   port: null,
+163 verbose parsed url   hostname: null,
+163 verbose parsed url   hash: null,
+163 verbose parsed url   search: null,
+163 verbose parsed url   query: null,
+163 verbose parsed url   pathname: '0.6.0',
+163 verbose parsed url   path: '0.6.0',
+163 verbose parsed url   href: '0.6.0' }
+164 verbose addNamed [ 'optimist', '0.6.0' ]
+165 verbose addNamed [ '0.6.0', '0.6.0' ]
+166 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+167 verbose lock optimist@0.6.0 /Users/malix/.npm/6403b4d6-optimist-0-6-0.lock
+168 verbose cache add [ 'unzip@0.1.9', null ]
+169 verbose cache add name=undefined spec="unzip@0.1.9" args=["unzip@0.1.9",null]
+170 verbose parsed url { protocol: null,
+170 verbose parsed url   slashes: null,
+170 verbose parsed url   auth: null,
+170 verbose parsed url   host: null,
+170 verbose parsed url   port: null,
+170 verbose parsed url   hostname: null,
+170 verbose parsed url   hash: null,
+170 verbose parsed url   search: null,
+170 verbose parsed url   query: null,
+170 verbose parsed url   pathname: 'unzip@0.1.9',
+170 verbose parsed url   path: 'unzip@0.1.9',
+170 verbose parsed url   href: 'unzip@0.1.9' }
+171 verbose cache add name="unzip" spec="0.1.9" args=["unzip","0.1.9"]
+172 verbose parsed url { protocol: null,
+172 verbose parsed url   slashes: null,
+172 verbose parsed url   auth: null,
+172 verbose parsed url   host: null,
+172 verbose parsed url   port: null,
+172 verbose parsed url   hostname: null,
+172 verbose parsed url   hash: null,
+172 verbose parsed url   search: null,
+172 verbose parsed url   query: null,
+172 verbose parsed url   pathname: '0.1.9',
+172 verbose parsed url   path: '0.1.9',
+172 verbose parsed url   href: '0.1.9' }
+173 verbose addNamed [ 'unzip', '0.1.9' ]
+174 verbose addNamed [ '0.1.9', '0.1.9' ]
+175 silly lockFile e656a324-unzip-0-1-9 unzip@0.1.9
+176 verbose lock unzip@0.1.9 /Users/malix/.npm/e656a324-unzip-0-1-9.lock
+177 verbose cache add [ 'cordova@~3.2.0', null ]
+178 verbose cache add name=undefined spec="cordova@~3.2.0" args=["cordova@~3.2.0",null]
+179 verbose parsed url { protocol: null,
+179 verbose parsed url   slashes: null,
+179 verbose parsed url   auth: null,
+179 verbose parsed url   host: null,
+179 verbose parsed url   port: null,
+179 verbose parsed url   hostname: null,
+179 verbose parsed url   hash: null,
+179 verbose parsed url   search: null,
+179 verbose parsed url   query: null,
+179 verbose parsed url   pathname: 'cordova@~3.2.0',
+179 verbose parsed url   path: 'cordova@~3.2.0',
+179 verbose parsed url   href: 'cordova@~3.2.0' }
+180 verbose cache add name="cordova" spec="~3.2.0" args=["cordova","~3.2.0"]
+181 verbose parsed url { protocol: null,
+181 verbose parsed url   slashes: null,
+181 verbose parsed url   auth: null,
+181 verbose parsed url   host: null,
+181 verbose parsed url   port: null,
+181 verbose parsed url   hostname: null,
+181 verbose parsed url   hash: null,
+181 verbose parsed url   search: null,
+181 verbose parsed url   query: null,
+181 verbose parsed url   pathname: '~3.2.0',
+181 verbose parsed url   path: '~3.2.0',
+181 verbose parsed url   href: '~3.2.0' }
+182 verbose addNamed [ 'cordova', '~3.2.0' ]
+183 verbose addNamed [ null, '>=3.2.0-0 <3.3.0-0' ]
+184 silly lockFile 4bcd23d2-cordova-3-2-0 cordova@~3.2.0
+185 verbose lock cordova@~3.2.0 /Users/malix/.npm/4bcd23d2-cordova-3-2-0.lock
+186 silly addNameRange { name: 'cordova', range: '>=3.2.0-0 <3.3.0-0', hasData: false }
+187 verbose url raw optimist/0.6.0
+188 verbose url resolving [ 'https://registry.npmjs.org/', './optimist/0.6.0' ]
+189 verbose url resolved https://registry.npmjs.org/optimist/0.6.0
+190 info trying registry request attempt 1 at 09:55:45
+191 http GET https://registry.npmjs.org/optimist/0.6.0
+192 verbose url raw shelljs/0.2.6
+193 verbose url resolving [ 'https://registry.npmjs.org/', './shelljs/0.2.6' ]
+194 verbose url resolved https://registry.npmjs.org/shelljs/0.2.6
+195 info trying registry request attempt 1 at 09:55:45
+196 http GET https://registry.npmjs.org/shelljs/0.2.6
+197 verbose url raw cordova
+198 verbose url resolving [ 'https://registry.npmjs.org/', './cordova' ]
+199 verbose url resolved https://registry.npmjs.org/cordova
+200 info trying registry request attempt 1 at 09:55:45
+201 http GET https://registry.npmjs.org/cordova
+202 verbose url raw unzip/0.1.9
+203 verbose url resolving [ 'https://registry.npmjs.org/', './unzip/0.1.9' ]
+204 verbose url resolved https://registry.npmjs.org/unzip/0.1.9
+205 info trying registry request attempt 1 at 09:55:45
+206 http GET https://registry.npmjs.org/unzip/0.1.9
+207 verbose url raw request/2.27.0
+208 verbose url resolving [ 'https://registry.npmjs.org/', './request/2.27.0' ]
+209 verbose url resolved https://registry.npmjs.org/request/2.27.0
+210 info trying registry request attempt 1 at 09:55:45
+211 verbose etag "AX9DUJYHI56MTAUUO7LK354DA"
+212 http GET https://registry.npmjs.org/request/2.27.0
+213 verbose url raw ncp/0.4.2
+214 verbose url resolving [ 'https://registry.npmjs.org/', './ncp/0.4.2' ]
+215 verbose url resolved https://registry.npmjs.org/ncp/0.4.2
+216 info trying registry request attempt 1 at 09:55:45
+217 verbose etag "CLXK9CXYYAPFJR27S0MA6WSJW"
+218 http GET https://registry.npmjs.org/ncp/0.4.2
+219 http 200 https://registry.npmjs.org/optimist/0.6.0
+220 silly registry.get cb [ 200,
+220 silly registry.get   { date: 'Tue, 21 Jan 2014 14:55:45 GMT',
+220 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+220 silly registry.get     etag: '"351M7LCMEAJNGZHK33TD0YTHM"',
+220 silly registry.get     'content-type': 'application/json',
+220 silly registry.get     'content-length': '11778',
+220 silly registry.get     'accept-ranges': 'bytes',
+220 silly registry.get     via: '1.1 varnish',
+220 silly registry.get     age: '24862',
+220 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+220 silly registry.get     'x-cache': 'HIT',
+220 silly registry.get     'x-cache-hits': '4',
+220 silly registry.get     'x-timer': 'S1390316145.880867243,VS0,VE0',
+220 silly registry.get     vary: 'Accept',
+220 silly registry.get     'keep-alive': 'timeout=10, max=50',
+220 silly registry.get     connection: 'Keep-Alive' } ]
+221 silly lockFile 8def609d--org-optimist-optimist-0-6-0-tgz https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+222 verbose lock https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz /Users/malix/.npm/8def609d--org-optimist-optimist-0-6-0-tgz.lock
+223 verbose addRemoteTarball [ 'https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz',
+223 verbose addRemoteTarball   '69424826f3405f79f142e6fc3d9ae58d4dbb9200' ]
+224 info retry fetch attempt 1 at 09:55:45
+225 verbose fetch to= /Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/tmp.tgz
+226 http GET https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+227 http 200 https://registry.npmjs.org/ncp/0.4.2
+228 silly registry.get cb [ 200,
+228 silly registry.get   { date: 'Tue, 21 Jan 2014 14:55:45 GMT',
+228 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+228 silly registry.get     etag: '"7RNHW3KKSZT7HNT081IITWB43"',
+228 silly registry.get     'content-type': 'application/json',
+228 silly registry.get     'content-length': '2934',
+228 silly registry.get     'accept-ranges': 'bytes',
+228 silly registry.get     via: '1.1 varnish',
+228 silly registry.get     age: '51377',
+228 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+228 silly registry.get     'x-cache': 'HIT',
+228 silly registry.get     'x-cache-hits': '27',
+228 silly registry.get     'x-timer': 'S1390316145.902044058,VS0,VE55',
+228 silly registry.get     vary: 'Accept',
+228 silly registry.get     'keep-alive': 'timeout=10, max=49',
+228 silly registry.get     connection: 'Keep-Alive' } ]
+229 silly lockFile b3172d45-stry-npmjs-org-ncp-ncp-0-4-2-tgz https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+230 verbose lock https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz /Users/malix/.npm/b3172d45-stry-npmjs-org-ncp-ncp-0-4-2-tgz.lock
+231 verbose addRemoteTarball [ 'https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz',
+231 verbose addRemoteTarball   'abcc6cbd3ec2ed2a729ff6e7c1fa8f01784a8574' ]
+232 http 200 https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+233 info retry fetch attempt 1 at 09:55:45
+234 verbose fetch to= /Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/tmp.tgz
+235 http GET https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+236 verbose tar unpack /Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/tmp.tgz
+237 silly lockFile bf8c13a0-45893-0-8634062567725778-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/package
+238 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/package /Users/malix/.npm/bf8c13a0-45893-0-8634062567725778-package.lock
+239 silly lockFile d3fd107c-45893-0-8634062567725778-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/tmp.tgz
+240 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/tmp.tgz /Users/malix/.npm/d3fd107c-45893-0-8634062567725778-tmp-tgz.lock
+241 silly gunzTarPerm modes [ '755', '644' ]
+242 silly gunzTarPerm extractEntry package.json
+243 silly gunzTarPerm extractEntry LICENSE
+244 silly gunzTarPerm extractEntry index.js
+245 silly gunzTarPerm extractEntry .travis.yml
+246 silly gunzTarPerm extractEntry example/bool.js
+247 silly gunzTarPerm extractEntry example/default_singles.js
+248 silly gunzTarPerm extractEntry example/divide.js
+249 silly gunzTarPerm extractEntry example/line_count.js
+250 silly gunzTarPerm extractEntry example/default_hash.js
+251 silly gunzTarPerm extractEntry example/line_count_wrap.js
+252 silly gunzTarPerm extractEntry example/nonopt.js
+253 silly gunzTarPerm extractEntry example/reflect.js
+254 silly gunzTarPerm extractEntry example/short.js
+255 silly gunzTarPerm extractEntry example/string.js
+256 silly gunzTarPerm extractEntry example/boolean_single.js
+257 silly gunzTarPerm extractEntry example/usage-options.js
+258 silly gunzTarPerm extractEntry example/boolean_double.js
+259 silly gunzTarPerm extractEntry example/xup.js
+260 silly gunzTarPerm extractEntry example/line_count_options.js
+261 silly gunzTarPerm extractEntry readme.markdown
+262 silly gunzTarPerm extractEntry test/_.js
+263 silly gunzTarPerm extractEntry test/dash.js
+264 silly gunzTarPerm extractEntry test/parse.js
+265 silly gunzTarPerm extractEntry test/parse_modified.js
+266 silly gunzTarPerm extractEntry test/short.js
+267 silly gunzTarPerm extractEntry test/usage.js
+268 silly gunzTarPerm extractEntry test/whitespace.js
+269 silly gunzTarPerm extractEntry test/_/argv.js
+270 silly gunzTarPerm extractEntry test/_/bin.js
+271 http 200 https://registry.npmjs.org/unzip/0.1.9
+272 silly registry.get cb [ 200,
+272 silly registry.get   { date: 'Tue, 21 Jan 2014 14:55:45 GMT',
+272 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+272 silly registry.get     etag: '"43I8QUMF52V2J2VUZ0F5JBAYT"',
+272 silly registry.get     'content-type': 'application/json',
+272 silly registry.get     'content-length': '4102',
+272 silly registry.get     'accept-ranges': 'bytes',
+272 silly registry.get     via: '1.1 varnish',
+272 silly registry.get     age: '0',
+272 silly registry.get     'x-served-by': 'cache-jfk1026-JFK',
+272 silly registry.get     'x-cache': 'MISS',
+272 silly registry.get     'x-cache-hits': '0',
+272 silly registry.get     'x-timer': 'S1390316145.883533716,VS0,VE108',
+272 silly registry.get     vary: 'Accept',
+272 silly registry.get     'keep-alive': 'timeout=10, max=50',
+272 silly registry.get     connection: 'Keep-Alive' } ]
+273 silly lockFile 8bc81189--npmjs-org-unzip-unzip-0-1-9-tgz https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+274 verbose lock https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz /Users/malix/.npm/8bc81189--npmjs-org-unzip-unzip-0-1-9-tgz.lock
+275 verbose addRemoteTarball [ 'https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz',
+275 verbose addRemoteTarball   '12ac4d05c0a19fc4546df4c50ae0a7f4706a9424' ]
+276 info retry fetch attempt 1 at 09:55:46
+277 verbose fetch to= /Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/tmp.tgz
+278 http GET https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+279 http 200 https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+280 verbose tar unpack /Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/tmp.tgz
+281 silly lockFile 130fabfa-45965-0-2586143312510103-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/package
+282 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/package /Users/malix/.npm/130fabfa-45965-0-2586143312510103-package.lock
+283 silly lockFile 0138447b-45965-0-2586143312510103-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/tmp.tgz
+284 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/tmp.tgz /Users/malix/.npm/0138447b-45965-0-2586143312510103-tmp-tgz.lock
+285 silly gunzTarPerm modes [ '755', '644' ]
+286 silly gunzTarPerm extractEntry package.json
+287 silly gunzTarPerm extractEntry .npmignore
+288 silly gunzTarPerm extractEntry README.md
+289 silly gunzTarPerm extractEntry .travis.yml
+290 silly gunzTarPerm extractEntry bin/ncp
+291 silly gunzTarPerm extractEntry lib/ncp.js
+292 silly gunzTarPerm extractEntry LICENSE.md
+293 silly gunzTarPerm extractEntry test/ncp-test.js
+294 silly gunzTarPerm extractEntry test/fixtures/src/a
+295 silly gunzTarPerm extractEntry test/fixtures/src/b
+296 silly gunzTarPerm extractEntry test/fixtures/src/c
+297 silly gunzTarPerm extractEntry test/fixtures/src/d
+298 silly gunzTarPerm extractEntry test/fixtures/src/e
+299 silly gunzTarPerm extractEntry test/fixtures/src/f
+300 silly gunzTarPerm extractEntry test/fixtures/src/sub/a
+301 silly gunzTarPerm extractEntry test/fixtures/src/sub/b
+302 http 200 https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+303 verbose tar unpack /Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/tmp.tgz
+304 silly lockFile 82a95ad8-46007-0-5215408853255212-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/package
+305 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/package /Users/malix/.npm/82a95ad8-46007-0-5215408853255212-package.lock
+306 silly lockFile a6973397-46007-0-5215408853255212-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/tmp.tgz
+307 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/tmp.tgz /Users/malix/.npm/a6973397-46007-0-5215408853255212-tmp-tgz.lock
+308 silly gunzTarPerm modes [ '755', '644' ]
+309 silly gunzTarPerm extractEntry package.json
+310 silly gunzTarPerm extractEntry .npmignore
+311 silly gunzTarPerm extractEntry README.md
+312 silly gunzTarPerm extractEntry LICENSE
+313 silly gunzTarPerm extractEntry unzip.js
+314 http 500 https://registry.npmjs.org/shelljs/0.2.6
+315 verbose bad json Internal routing error
+315 verbose bad json
+315 verbose bad json Sorry, we cannot connect to the intended server.
+315 verbose bad json
+315 verbose bad json We have just been notified of this problem. We will correct it as soon as possible.
+315 verbose bad json
+315 verbose bad json Feel free to contact us if you have any questions: support@iriscouch.com
+316 error registry error parsing json
+317 info retry will retry, error on last attempt: SyntaxError: Unexpected token I
+317 info retry Internal routing error
+317 info retry
+317 info retry Sorry, we cannot connect to the intended server.
+317 info retry
+317 info retry We have just been notified of this problem. We will correct it as soon as possible.
+317 info retry
+317 info retry Feel free to contact us if you have any questions: support@iriscouch.com
+318 http 500 https://registry.npmjs.org/cordova
+319 verbose bad json Internal routing error
+319 verbose bad json
+319 verbose bad json Sorry, we cannot connect to the intended server.
+319 verbose bad json
+319 verbose bad json We have just been notified of this problem. We will correct it as soon as possible.
+319 verbose bad json
+319 verbose bad json Feel free to contact us if you have any questions: support@iriscouch.com
+320 error registry error parsing json
+321 info retry will retry, error on last attempt: SyntaxError: Unexpected token I
+321 info retry Internal routing error
+321 info retry
+321 info retry Sorry, we cannot connect to the intended server.
+321 info retry
+321 info retry We have just been notified of this problem. We will correct it as soon as possible.
+321 info retry
+321 info retry Feel free to contact us if you have any questions: support@iriscouch.com
+322 http 500 https://registry.npmjs.org/request/2.27.0
+323 verbose bad json Internal routing error
+323 verbose bad json
+323 verbose bad json Sorry, we cannot connect to the intended server.
+323 verbose bad json
+323 verbose bad json We have just been notified of this problem. We will correct it as soon as possible.
+323 verbose bad json
+323 verbose bad json Feel free to contact us if you have any questions: support@iriscouch.com
+324 error registry error parsing json
+325 info retry will retry, error on last attempt: SyntaxError: Unexpected token I
+325 info retry Internal routing error
+325 info retry
+325 info retry Sorry, we cannot connect to the intended server.
+325 info retry
+325 info retry We have just been notified of this problem. We will correct it as soon as possible.
+325 info retry
+325 info retry Feel free to contact us if you have any questions: support@iriscouch.com
+326 silly gunzTarPerm extractEntry .travis.yml
+327 silly gunzTarPerm extractEntry lib/entry.js
+328 silly gunzTarPerm extractEntry lib/extract.js
+329 silly gunzTarPerm extractEntry lib/parse.js
+330 silly gunzTarPerm extractEntry test/compressed.js
+331 silly gunzTarPerm extractEntry test/fileSizeUnknownFlag.js
+332 silly gunzTarPerm extractEntry test/pipeSingleEntry.js
+333 silly gunzTarPerm extractEntry test/uncompressed.js
+334 silly gunzTarPerm extractEntry testData/compressed-OSX-Finder/archive.zip
+335 silly gunzTarPerm extractEntry testData/compressed-OSX-Finder/inflated/dir/fileInsideDir.txt
+336 silly gunzTarPerm extractEntry testData/compressed-OSX-Finder/inflated/file.txt
+337 silly lockFile bf8c13a0-45893-0-8634062567725778-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/package
+338 silly lockFile bf8c13a0-45893-0-8634062567725778-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/package
+339 silly lockFile d3fd107c-45893-0-8634062567725778-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/tmp.tgz
+340 silly lockFile d3fd107c-45893-0-8634062567725778-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/tmp.tgz
+341 verbose tar pack [ '/Users/malix/.npm/optimist/0.6.0/package.tgz',
+341 verbose tar pack   '/Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/package' ]
+342 verbose tarball /Users/malix/.npm/optimist/0.6.0/package.tgz
+343 verbose folder /Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/package
+344 silly lockFile bf8c13a0-45893-0-8634062567725778-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/package
+345 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/package /Users/malix/.npm/bf8c13a0-45893-0-8634062567725778-package.lock
+346 silly lockFile a7521659-x-npm-optimist-0-6-0-package-tgz tar:///Users/malix/.npm/optimist/0.6.0/package.tgz
+347 verbose lock tar:///Users/malix/.npm/optimist/0.6.0/package.tgz /Users/malix/.npm/a7521659-x-npm-optimist-0-6-0-package-tgz.lock
+348 silly gunzTarPerm extractEntry testData/compressed-flags-set/archive.zip
+349 silly gunzTarPerm extractEntry testData/compressed-flags-set/inflated/dir/fileInsideDir.txt
+350 silly lockFile 130fabfa-45965-0-2586143312510103-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/package
+351 silly lockFile 130fabfa-45965-0-2586143312510103-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/package
+352 silly lockFile 0138447b-45965-0-2586143312510103-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/tmp.tgz
+353 silly lockFile 0138447b-45965-0-2586143312510103-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/tmp.tgz
+354 verbose tar pack [ '/Users/malix/.npm/ncp/0.4.2/package.tgz',
+354 verbose tar pack   '/Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/package' ]
+355 verbose tarball /Users/malix/.npm/ncp/0.4.2/package.tgz
+356 verbose folder /Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/package
+357 silly lockFile 130fabfa-45965-0-2586143312510103-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/package
+358 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/package /Users/malix/.npm/130fabfa-45965-0-2586143312510103-package.lock
+359 silly lockFile d4eb5b5f--malix-npm-ncp-0-4-2-package-tgz tar:///Users/malix/.npm/ncp/0.4.2/package.tgz
+360 verbose lock tar:///Users/malix/.npm/ncp/0.4.2/package.tgz /Users/malix/.npm/d4eb5b5f--malix-npm-ncp-0-4-2-package-tgz.lock
+361 silly gunzTarPerm extractEntry testData/compressed-flags-set/inflated/file.txt
+362 silly gunzTarPerm extractEntry testData/compressed-standard/archive.zip
+363 silly gunzTarPerm extractEntry testData/compressed-standard/inflated/dir/fileInsideDir.txt
+364 silly gunzTarPerm extractEntry testData/compressed-standard/inflated/file.txt
+365 silly gunzTarPerm extractEntry testData/uncompressed/archive.zip
+366 silly gunzTarPerm extractEntry testData/uncompressed/inflated/dir/fileInsideDir.txt
+367 silly gunzTarPerm extractEntry testData/uncompressed/inflated/file.txt
+368 silly lockFile 130fabfa-45965-0-2586143312510103-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/package
+369 silly lockFile 130fabfa-45965-0-2586143312510103-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145965-0.2586143312510103/package
+370 silly lockFile d4eb5b5f--malix-npm-ncp-0-4-2-package-tgz tar:///Users/malix/.npm/ncp/0.4.2/package.tgz
+371 silly lockFile d4eb5b5f--malix-npm-ncp-0-4-2-package-tgz tar:///Users/malix/.npm/ncp/0.4.2/package.tgz
+372 silly lockFile d29ac531-sers-malix-npm-ncp-0-4-2-package /Users/malix/.npm/ncp/0.4.2/package
+373 verbose lock /Users/malix/.npm/ncp/0.4.2/package /Users/malix/.npm/d29ac531-sers-malix-npm-ncp-0-4-2-package.lock
+374 silly lockFile d29ac531-sers-malix-npm-ncp-0-4-2-package /Users/malix/.npm/ncp/0.4.2/package
+375 silly lockFile d29ac531-sers-malix-npm-ncp-0-4-2-package /Users/malix/.npm/ncp/0.4.2/package
+376 verbose tar unpack /Users/malix/.npm/ncp/0.4.2/package.tgz
+377 silly lockFile 333ce0cc-sers-malix-npm-ncp-0-4-2-package tar:///Users/malix/.npm/ncp/0.4.2/package
+378 verbose lock tar:///Users/malix/.npm/ncp/0.4.2/package /Users/malix/.npm/333ce0cc-sers-malix-npm-ncp-0-4-2-package.lock
+379 silly lockFile d4eb5b5f--malix-npm-ncp-0-4-2-package-tgz tar:///Users/malix/.npm/ncp/0.4.2/package.tgz
+380 verbose lock tar:///Users/malix/.npm/ncp/0.4.2/package.tgz /Users/malix/.npm/d4eb5b5f--malix-npm-ncp-0-4-2-package-tgz.lock
+381 silly gunzTarPerm modes [ '755', '644' ]
+382 silly gunzTarPerm extractEntry package.json
+383 silly gunzTarPerm extractEntry .npmignore
+384 silly gunzTarPerm extractEntry README.md
+385 silly gunzTarPerm extractEntry .travis.yml
+386 silly gunzTarPerm extractEntry LICENSE.md
+387 silly gunzTarPerm extractEntry bin/ncp
+388 silly gunzTarPerm extractEntry lib/ncp.js
+389 silly gunzTarPerm extractEntry test/ncp-test.js
+390 silly gunzTarPerm extractEntry test/fixtures/src/a
+391 silly gunzTarPerm extractEntry test/fixtures/src/b
+392 silly gunzTarPerm extractEntry test/fixtures/src/c
+393 silly gunzTarPerm extractEntry test/fixtures/src/d
+394 silly gunzTarPerm extractEntry test/fixtures/src/e
+395 silly gunzTarPerm extractEntry test/fixtures/src/f
+396 silly gunzTarPerm extractEntry test/fixtures/src/sub/a
+397 silly gunzTarPerm extractEntry test/fixtures/src/sub/b
+398 silly lockFile bf8c13a0-45893-0-8634062567725778-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/package
+399 silly lockFile bf8c13a0-45893-0-8634062567725778-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316145893-0.8634062567725778/package
+400 silly lockFile a7521659-x-npm-optimist-0-6-0-package-tgz tar:///Users/malix/.npm/optimist/0.6.0/package.tgz
+401 silly lockFile a7521659-x-npm-optimist-0-6-0-package-tgz tar:///Users/malix/.npm/optimist/0.6.0/package.tgz
+402 silly lockFile e0d88597-malix-npm-optimist-0-6-0-package /Users/malix/.npm/optimist/0.6.0/package
+403 verbose lock /Users/malix/.npm/optimist/0.6.0/package /Users/malix/.npm/e0d88597-malix-npm-optimist-0-6-0-package.lock
+404 silly lockFile e0d88597-malix-npm-optimist-0-6-0-package /Users/malix/.npm/optimist/0.6.0/package
+405 silly lockFile e0d88597-malix-npm-optimist-0-6-0-package /Users/malix/.npm/optimist/0.6.0/package
+406 verbose tar unpack /Users/malix/.npm/optimist/0.6.0/package.tgz
+407 silly lockFile 2e70cc8c-malix-npm-optimist-0-6-0-package tar:///Users/malix/.npm/optimist/0.6.0/package
+408 verbose lock tar:///Users/malix/.npm/optimist/0.6.0/package /Users/malix/.npm/2e70cc8c-malix-npm-optimist-0-6-0-package.lock
+409 silly lockFile a7521659-x-npm-optimist-0-6-0-package-tgz tar:///Users/malix/.npm/optimist/0.6.0/package.tgz
+410 verbose lock tar:///Users/malix/.npm/optimist/0.6.0/package.tgz /Users/malix/.npm/a7521659-x-npm-optimist-0-6-0-package-tgz.lock
+411 silly gunzTarPerm modes [ '755', '644' ]
+412 silly gunzTarPerm extractEntry package.json
+413 silly gunzTarPerm extractEntry LICENSE
+414 silly gunzTarPerm extractEntry index.js
+415 silly lockFile 82a95ad8-46007-0-5215408853255212-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/package
+416 silly lockFile 82a95ad8-46007-0-5215408853255212-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/package
+417 silly lockFile a6973397-46007-0-5215408853255212-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/tmp.tgz
+418 silly lockFile a6973397-46007-0-5215408853255212-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/tmp.tgz
+419 verbose tar pack [ '/Users/malix/.npm/unzip/0.1.9/package.tgz',
+419 verbose tar pack   '/Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/package' ]
+420 verbose tarball /Users/malix/.npm/unzip/0.1.9/package.tgz
+421 verbose folder /Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/package
+422 silly lockFile 82a95ad8-46007-0-5215408853255212-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/package
+423 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/package /Users/malix/.npm/82a95ad8-46007-0-5215408853255212-package.lock
+424 silly lockFile b77565a2-alix-npm-unzip-0-1-9-package-tgz tar:///Users/malix/.npm/unzip/0.1.9/package.tgz
+425 verbose lock tar:///Users/malix/.npm/unzip/0.1.9/package.tgz /Users/malix/.npm/b77565a2-alix-npm-unzip-0-1-9-package-tgz.lock
+426 silly gunzTarPerm extractEntry .travis.yml
+427 silly gunzTarPerm extractEntry example/bool.js
+428 silly gunzTarPerm extractEntry example/default_singles.js
+429 silly gunzTarPerm extractEntry example/divide.js
+430 silly gunzTarPerm extractEntry example/line_count.js
+431 silly gunzTarPerm extractEntry example/default_hash.js
+432 silly gunzTarPerm extractEntry example/line_count_wrap.js
+433 silly gunzTarPerm extractEntry example/nonopt.js
+434 silly gunzTarPerm extractEntry example/reflect.js
+435 silly gunzTarPerm extractEntry example/short.js
+436 silly gunzTarPerm extractEntry example/string.js
+437 silly gunzTarPerm extractEntry example/boolean_single.js
+438 silly gunzTarPerm extractEntry example/usage-options.js
+439 silly gunzTarPerm extractEntry example/boolean_double.js
+440 silly gunzTarPerm extractEntry example/xup.js
+441 silly gunzTarPerm extractEntry example/line_count_options.js
+442 silly gunzTarPerm extractEntry readme.markdown
+443 silly lockFile 333ce0cc-sers-malix-npm-ncp-0-4-2-package tar:///Users/malix/.npm/ncp/0.4.2/package
+444 silly lockFile 333ce0cc-sers-malix-npm-ncp-0-4-2-package tar:///Users/malix/.npm/ncp/0.4.2/package
+445 silly lockFile d4eb5b5f--malix-npm-ncp-0-4-2-package-tgz tar:///Users/malix/.npm/ncp/0.4.2/package.tgz
+446 silly lockFile d4eb5b5f--malix-npm-ncp-0-4-2-package-tgz tar:///Users/malix/.npm/ncp/0.4.2/package.tgz
+447 silly gunzTarPerm extractEntry test/_.js
+448 silly gunzTarPerm extractEntry test/dash.js
+449 verbose chmod /Users/malix/.npm/ncp/0.4.2/package.tgz 644
+450 verbose chown /Users/malix/.npm/ncp/0.4.2/package.tgz [ 36397529, 132145106 ]
+451 silly lockFile b3172d45-stry-npmjs-org-ncp-ncp-0-4-2-tgz https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+452 silly lockFile b3172d45-stry-npmjs-org-ncp-ncp-0-4-2-tgz https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz
+453 silly lockFile e43cb36a-ncp-0-4-2 ncp@0.4.2
+454 silly lockFile e43cb36a-ncp-0-4-2 ncp@0.4.2
+455 silly gunzTarPerm extractEntry test/parse.js
+456 silly gunzTarPerm extractEntry test/parse_modified.js
+457 silly gunzTarPerm extractEntry test/short.js
+458 silly gunzTarPerm extractEntry test/usage.js
+459 silly gunzTarPerm extractEntry test/whitespace.js
+460 silly gunzTarPerm extractEntry test/_/argv.js
+461 silly gunzTarPerm extractEntry test/_/bin.js
+462 silly lockFile 82a95ad8-46007-0-5215408853255212-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/package
+463 silly lockFile 82a95ad8-46007-0-5215408853255212-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316146007-0.5215408853255212/package
+464 silly lockFile b77565a2-alix-npm-unzip-0-1-9-package-tgz tar:///Users/malix/.npm/unzip/0.1.9/package.tgz
+465 silly lockFile b77565a2-alix-npm-unzip-0-1-9-package-tgz tar:///Users/malix/.npm/unzip/0.1.9/package.tgz
+466 silly lockFile ef23b17c-rs-malix-npm-unzip-0-1-9-package /Users/malix/.npm/unzip/0.1.9/package
+467 verbose lock /Users/malix/.npm/unzip/0.1.9/package /Users/malix/.npm/ef23b17c-rs-malix-npm-unzip-0-1-9-package.lock
+468 silly lockFile ef23b17c-rs-malix-npm-unzip-0-1-9-package /Users/malix/.npm/unzip/0.1.9/package
+469 silly lockFile ef23b17c-rs-malix-npm-unzip-0-1-9-package /Users/malix/.npm/unzip/0.1.9/package
+470 verbose tar unpack /Users/malix/.npm/unzip/0.1.9/package.tgz
+471 silly lockFile a90d8ecb-rs-malix-npm-unzip-0-1-9-package tar:///Users/malix/.npm/unzip/0.1.9/package
+472 verbose lock tar:///Users/malix/.npm/unzip/0.1.9/package /Users/malix/.npm/a90d8ecb-rs-malix-npm-unzip-0-1-9-package.lock
+473 silly lockFile b77565a2-alix-npm-unzip-0-1-9-package-tgz tar:///Users/malix/.npm/unzip/0.1.9/package.tgz
+474 verbose lock tar:///Users/malix/.npm/unzip/0.1.9/package.tgz /Users/malix/.npm/b77565a2-alix-npm-unzip-0-1-9-package-tgz.lock
+475 silly gunzTarPerm modes [ '755', '644' ]
+476 silly gunzTarPerm extractEntry package.json
+477 silly gunzTarPerm extractEntry .npmignore
+478 silly gunzTarPerm extractEntry README.md
+479 silly gunzTarPerm extractEntry LICENSE
+480 silly gunzTarPerm extractEntry unzip.js
+481 silly gunzTarPerm extractEntry .travis.yml
+482 silly gunzTarPerm extractEntry lib/entry.js
+483 silly gunzTarPerm extractEntry lib/extract.js
+484 silly lockFile 2e70cc8c-malix-npm-optimist-0-6-0-package tar:///Users/malix/.npm/optimist/0.6.0/package
+485 silly lockFile 2e70cc8c-malix-npm-optimist-0-6-0-package tar:///Users/malix/.npm/optimist/0.6.0/package
+486 silly lockFile a7521659-x-npm-optimist-0-6-0-package-tgz tar:///Users/malix/.npm/optimist/0.6.0/package.tgz
+487 silly lockFile a7521659-x-npm-optimist-0-6-0-package-tgz tar:///Users/malix/.npm/optimist/0.6.0/package.tgz
+488 verbose chmod /Users/malix/.npm/optimist/0.6.0/package.tgz 644
+489 verbose chown /Users/malix/.npm/optimist/0.6.0/package.tgz [ 36397529, 132145106 ]
+490 silly gunzTarPerm extractEntry lib/parse.js
+491 silly gunzTarPerm extractEntry test/compressed.js
+492 silly lockFile 8def609d--org-optimist-optimist-0-6-0-tgz https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+493 silly lockFile 8def609d--org-optimist-optimist-0-6-0-tgz https://registry.npmjs.org/optimist/-/optimist-0.6.0.tgz
+494 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+495 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+496 silly gunzTarPerm extractEntry test/fileSizeUnknownFlag.js
+497 silly gunzTarPerm extractEntry test/pipeSingleEntry.js
+498 silly gunzTarPerm extractEntry test/uncompressed.js
+499 silly gunzTarPerm extractEntry testData/compressed-OSX-Finder/archive.zip
+500 silly gunzTarPerm extractEntry testData/compressed-OSX-Finder/inflated/dir/fileInsideDir.txt
+501 silly gunzTarPerm extractEntry testData/compressed-OSX-Finder/inflated/file.txt
+502 silly gunzTarPerm extractEntry testData/compressed-flags-set/archive.zip
+503 silly gunzTarPerm extractEntry testData/compressed-flags-set/inflated/dir/fileInsideDir.txt
+504 silly gunzTarPerm extractEntry testData/compressed-flags-set/inflated/file.txt
+505 silly gunzTarPerm extractEntry testData/compressed-standard/archive.zip
+506 silly gunzTarPerm extractEntry testData/compressed-standard/inflated/dir/fileInsideDir.txt
+507 silly gunzTarPerm extractEntry testData/compressed-standard/inflated/file.txt
+508 silly gunzTarPerm extractEntry testData/uncompressed/archive.zip
+509 silly gunzTarPerm extractEntry testData/uncompressed/inflated/dir/fileInsideDir.txt
+510 silly gunzTarPerm extractEntry testData/uncompressed/inflated/file.txt
+511 silly lockFile a90d8ecb-rs-malix-npm-unzip-0-1-9-package tar:///Users/malix/.npm/unzip/0.1.9/package
+512 silly lockFile a90d8ecb-rs-malix-npm-unzip-0-1-9-package tar:///Users/malix/.npm/unzip/0.1.9/package
+513 silly lockFile b77565a2-alix-npm-unzip-0-1-9-package-tgz tar:///Users/malix/.npm/unzip/0.1.9/package.tgz
+514 silly lockFile b77565a2-alix-npm-unzip-0-1-9-package-tgz tar:///Users/malix/.npm/unzip/0.1.9/package.tgz
+515 verbose chmod /Users/malix/.npm/unzip/0.1.9/package.tgz 644
+516 verbose chown /Users/malix/.npm/unzip/0.1.9/package.tgz [ 36397529, 132145106 ]
+517 silly lockFile 8bc81189--npmjs-org-unzip-unzip-0-1-9-tgz https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+518 silly lockFile 8bc81189--npmjs-org-unzip-unzip-0-1-9-tgz https://registry.npmjs.org/unzip/-/unzip-0.1.9.tgz
+519 silly lockFile e656a324-unzip-0-1-9 unzip@0.1.9
+520 silly lockFile e656a324-unzip-0-1-9 unzip@0.1.9
+521 info trying registry request attempt 2 at 09:55:56
+522 http GET https://registry.npmjs.org/shelljs/0.2.6
+523 info trying registry request attempt 2 at 09:55:56
+524 http GET https://registry.npmjs.org/cordova
+525 info trying registry request attempt 2 at 09:55:56
+526 verbose etag "AX9DUJYHI56MTAUUO7LK354DA"
+527 http GET https://registry.npmjs.org/request/2.27.0
+528 http 200 https://registry.npmjs.org/request/2.27.0
+529 silly registry.get cb [ 200,
+529 silly registry.get   { date: 'Tue, 21 Jan 2014 14:55:56 GMT',
+529 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+529 silly registry.get     etag: '"89UODH6SVJ6KALTYEKKFDOMEU"',
+529 silly registry.get     'content-type': 'application/json',
+529 silly registry.get     'content-length': '13770',
+529 silly registry.get     'accept-ranges': 'bytes',
+529 silly registry.get     via: '1.1 varnish',
+529 silly registry.get     age: '5044',
+529 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+529 silly registry.get     'x-cache': 'MISS',
+529 silly registry.get     'x-cache-hits': '0',
+529 silly registry.get     'x-timer': 'S1390316156.220973253,VS0,VE54',
+529 silly registry.get     vary: 'Accept',
+529 silly registry.get     'keep-alive': 'timeout=10, max=50',
+529 silly registry.get     connection: 'Keep-Alive' } ]
+530 silly lockFile 601afcd9-s-org-request-request-2-27-0-tgz https://registry.npmjs.org/request/-/request-2.27.0.tgz
+531 verbose lock https://registry.npmjs.org/request/-/request-2.27.0.tgz /Users/malix/.npm/601afcd9-s-org-request-request-2-27-0-tgz.lock
+532 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.27.0.tgz',
+532 verbose addRemoteTarball   'dfb1a224dd3a5a9bade4337012503d710e538668' ]
+533 info retry fetch attempt 1 at 09:55:56
+534 verbose fetch to= /Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/tmp.tgz
+535 http GET https://registry.npmjs.org/request/-/request-2.27.0.tgz
+536 http 200 https://registry.npmjs.org/request/-/request-2.27.0.tgz
+537 http 500 https://registry.npmjs.org/shelljs/0.2.6
+538 verbose bad json Internal routing error
+538 verbose bad json
+538 verbose bad json Sorry, we cannot connect to the intended server.
+538 verbose bad json
+538 verbose bad json We have just been notified of this problem. We will correct it as soon as possible.
+538 verbose bad json
+538 verbose bad json Feel free to contact us if you have any questions: support@iriscouch.com
+539 error registry error parsing json
+540 info retry will retry, error on last attempt: SyntaxError: Unexpected token I
+540 info retry Internal routing error
+540 info retry
+540 info retry Sorry, we cannot connect to the intended server.
+540 info retry
+540 info retry We have just been notified of this problem. We will correct it as soon as possible.
+540 info retry
+540 info retry Feel free to contact us if you have any questions: support@iriscouch.com
+541 verbose tar unpack /Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/tmp.tgz
+542 silly lockFile 99bfcbec-56299-0-3545483115594834-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/package
+543 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/package /Users/malix/.npm/99bfcbec-56299-0-3545483115594834-package.lock
+544 silly lockFile ba2ea58e-56299-0-3545483115594834-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/tmp.tgz
+545 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/tmp.tgz /Users/malix/.npm/ba2ea58e-56299-0-3545483115594834-tmp-tgz.lock
+546 silly gunzTarPerm modes [ '755', '644' ]
+547 silly gunzTarPerm extractEntry package.json
+548 silly gunzTarPerm extractEntry .npmignore
+549 silly gunzTarPerm extractEntry README.md
+550 silly gunzTarPerm extractEntry LICENSE
+551 silly gunzTarPerm extractEntry index.js
+552 silly gunzTarPerm extractEntry request.js
+553 silly gunzTarPerm extractEntry lib/copy.js
+554 silly gunzTarPerm extractEntry lib/debug.js
+555 silly gunzTarPerm extractEntry lib/getSafe.js
+556 silly gunzTarPerm extractEntry tests/test-https-strict.js
+557 silly gunzTarPerm extractEntry tests/test-headers.js
+558 silly gunzTarPerm extractEntry tests/test-http-signature.js
+559 silly gunzTarPerm extractEntry tests/test-httpModule.js
+560 silly gunzTarPerm extractEntry tests/run.js
+561 silly gunzTarPerm extractEntry tests/test-hawk.js
+562 silly gunzTarPerm extractEntry tests/test-isUrl.js
+563 silly gunzTarPerm extractEntry tests/test-localAddress.js
+564 silly gunzTarPerm extractEntry tests/test-oauth.js
+565 silly gunzTarPerm extractEntry tests/test-onelineproxy.js
+566 silly gunzTarPerm extractEntry tests/test-params.js
+567 silly gunzTarPerm extractEntry tests/test-form.js
+568 silly gunzTarPerm extractEntry tests/test-piped-redirect.js
+569 silly gunzTarPerm extractEntry tests/test-follow-all.js
+570 silly gunzTarPerm extractEntry tests/test-pipes.js
+571 silly gunzTarPerm extractEntry tests/test-follow-all-303.js
+572 silly gunzTarPerm extractEntry tests/test-pool.js
+573 silly gunzTarPerm extractEntry tests/test-errors.js
+574 silly gunzTarPerm extractEntry tests/test-protocol-changing-redirect.js
+575 silly gunzTarPerm extractEntry tests/test-emptyBody.js
+576 silly gunzTarPerm extractEntry tests/test-proxy.js
+577 silly gunzTarPerm extractEntry tests/test-digest-auth.js
+578 silly gunzTarPerm extractEntry tests/test-qs.js
+579 silly gunzTarPerm extractEntry tests/test-defaults.js
+580 silly gunzTarPerm extractEntry tests/test-redirect.js
+581 silly gunzTarPerm extractEntry tests/test-body.js
+582 silly gunzTarPerm extractEntry tests/test-s3.js
+583 silly gunzTarPerm extractEntry tests/test-basic-auth.js
+584 silly gunzTarPerm extractEntry tests/test-timeout.js
+585 silly gunzTarPerm extractEntry tests/test-agentOptions.js
+586 silly gunzTarPerm extractEntry tests/test-toJSON.js
+587 silly gunzTarPerm extractEntry tests/server.js
+588 silly gunzTarPerm extractEntry tests/test-tunnel.js
+589 silly gunzTarPerm extractEntry tests/test-https.js
+590 silly gunzTarPerm extractEntry tests/ssl/ca/server.js
+591 silly gunzTarPerm extractEntry tests/ssl/ca/ca.srl
+592 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crt
+593 silly gunzTarPerm extractEntry tests/ssl/ca/ca.csr
+594 silly gunzTarPerm extractEntry tests/ssl/ca/ca.key
+595 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crl
+596 silly gunzTarPerm extractEntry tests/ssl/ca/server.cnf
+597 silly gunzTarPerm extractEntry tests/ssl/ca/server.crt
+598 silly gunzTarPerm extractEntry tests/ssl/ca/server.csr
+599 silly gunzTarPerm extractEntry tests/ssl/ca/ca.cnf
+600 silly gunzTarPerm extractEntry tests/ssl/ca/server.key
+601 silly gunzTarPerm extractEntry tests/ssl/npm-ca.crt
+602 silly gunzTarPerm extractEntry tests/ssl/test.crt
+603 silly gunzTarPerm extractEntry tests/ssl/test.key
+604 silly gunzTarPerm extractEntry tests/googledoodle.jpg
+605 silly gunzTarPerm extractEntry tests/squid.conf
+606 silly gunzTarPerm extractEntry tests/unicycle.jpg
+607 silly lockFile 99bfcbec-56299-0-3545483115594834-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/package
+608 silly lockFile 99bfcbec-56299-0-3545483115594834-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/package
+609 silly lockFile ba2ea58e-56299-0-3545483115594834-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/tmp.tgz
+610 silly lockFile ba2ea58e-56299-0-3545483115594834-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/tmp.tgz
+611 verbose tar pack [ '/Users/malix/.npm/request/2.27.0/package.tgz',
+611 verbose tar pack   '/Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/package' ]
+612 verbose tarball /Users/malix/.npm/request/2.27.0/package.tgz
+613 verbose folder /Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/package
+614 silly lockFile 99bfcbec-56299-0-3545483115594834-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/package
+615 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/package /Users/malix/.npm/99bfcbec-56299-0-3545483115594834-package.lock
+616 silly lockFile bb6843a2-x-npm-request-2-27-0-package-tgz tar:///Users/malix/.npm/request/2.27.0/package.tgz
+617 verbose lock tar:///Users/malix/.npm/request/2.27.0/package.tgz /Users/malix/.npm/bb6843a2-x-npm-request-2-27-0-package-tgz.lock
+618 http 200 https://registry.npmjs.org/cordova
+619 silly registry.get cb [ 200,
+619 silly registry.get   { date: 'Tue, 21 Jan 2014 14:55:56 GMT',
+619 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+619 silly registry.get     etag: '"F0S7NE4RQ3BJJB4LRZ4Z6OUUG"',
+619 silly registry.get     'content-type': 'application/json',
+619 silly registry.get     'content-length': '1360612',
+619 silly registry.get     'accept-ranges': 'bytes',
+619 silly registry.get     via: '1.1 varnish',
+619 silly registry.get     age: '676',
+619 silly registry.get     'x-served-by': 'cache-jfk1021-JFK',
+619 silly registry.get     'x-cache': 'MISS',
+619 silly registry.get     'x-cache-hits': '0',
+619 silly registry.get     'x-timer': 'S1390316156.211655140,VS0,VE100',
+619 silly registry.get     vary: 'Accept',
+619 silly registry.get     'keep-alive': 'timeout=10, max=50',
+619 silly registry.get     connection: 'Keep-Alive' } ]
+620 silly addNameRange number 2 { name: 'cordova', range: '>=3.2.0-0 <3.3.0-0', hasData: true }
+621 silly addNameRange versions [ 'cordova',
+621 silly addNameRange   [ '0.0.1',
+621 silly addNameRange     '0.0.2',
+621 silly addNameRange     '0.0.3',
+621 silly addNameRange     '0.0.4',
+621 silly addNameRange     '0.0.5',
+621 silly addNameRange     '0.0.6',
+621 silly addNameRange     '0.0.7',
+621 silly addNameRange     '0.0.8',
+621 silly addNameRange     '0.0.9',
+621 silly addNameRange     '0.1.0',
+621 silly addNameRange     '0.1.1',
+621 silly addNameRange     '0.1.2',
+621 silly addNameRange     '0.1.3',
+621 silly addNameRange     '0.1.4',
+621 silly addNameRange     '0.1.5',
+621 silly addNameRange     '0.1.6',
+621 silly addNameRange     '0.1.7',
+621 silly addNameRange     '0.1.8',
+621 silly addNameRange     '0.1.9',
+621 silly addNameRange     '0.1.10',
+621 silly addNameRange     '0.1.11',
+621 silly addNameRange     '0.1.12',
+621 silly addNameRange     '0.1.13',
+621 silly addNameRange     '0.1.14',
+621 silly addNameRange     '2.2.0',
+621 silly addNameRange     '2.3.0',
+621 silly addNameRange     '2.3.1',
+621 silly addNameRange     '2.3.2',
+621 silly addNameRange     '2.3.3',
+621 silly addNameRange     '2.3.5',
+621 silly addNameRange     '2.3.6',
+621 silly addNameRange     '2.4.0',
+621 silly addNameRange     '2.4.1',
+621 silly addNameRange     '2.4.2',
+621 silly addNameRange     '2.4.3',
+621 silly addNameRange     '2.4.4',
+621 silly addNameRange     '2.4.5',
+621 silly addNameRange     '2.4.6',
+621 silly addNameRange     '2.4.7',
+621 silly addNameRange     '2.4.8',
+621 silly addNameRange     '2.4.9',
+621 silly addNameRange     '2.4.10',
+621 silly addNameRange     '2.5.0',
+621 silly addNameRange     '2.5.2',
+621 silly addNameRange     '2.5.3',
+621 silly addNameRange     '2.5.4',
+621 silly addNameRange     '2.5.5',
+621 silly addNameRange     '2.6.0',
+621 silly addNameRange     '2.6.1',
+621 silly addNameRange     '2.6.2',
+621 silly addNameRange     '2.7.0-rc.1',
+621 silly addNameRange     '2.7.1-rc.1',
+621 silly addNameRange     '2.7.2',
+621 silly addNameRange     '2.7.3',
+621 silly addNameRange     '2.7.4',
+621 silly addNameRange     '2.8.0',
+621 silly addNameRange     '2.8.1',
+621 silly addNameRange     '2.8.2',
+621 silly addNameRange     '2.8.3',
+621 silly addNameRange     '2.8.4',
+621 silly addNameRange     '2.8.5',
+621 silly addNameRange     '2.8.6',
+621 silly addNameRange     '2.8.7',
+621 silly addNameRange     '2.8.8',
+621 silly addNameRange     '2.8.9',
+621 silly addNameRange     '2.8.10',
+621 silly addNameRange     '2.8.11',
+621 silly addNameRange     '2.8.12',
+621 silly addNameRange     '2.8.13',
+621 silly addNameRange     '2.8.14',
+621 silly addNameRange     '2.8.15',
+621 silly addNameRange     '2.8.16',
+621 silly addNameRange     '2.8.17',
+621 silly addNameRange     '2.8.18',
+621 silly addNameRange     '2.8.19',
+621 silly addNameRange     '2.8.20',
+621 silly addNameRange     '2.8.21',
+621 silly addNameRange     '2.8.22',
+621 silly addNameRange     '2.8.23',
+621 silly addNameRange     '2.8.24',
+621 silly addNameRange     '2.8.25',
+621 silly addNameRange     '2.9.0',
+621 silly addNameRange     '2.9.1',
+621 silly addNameRange     '2.9.2',
+621 silly addNameRange     '2.9.3',
+621 silly addNameRange     '2.9.4',
+621 silly addNameRange     '2.9.5',
+621 silly addNameRange     '2.9.6',
+621 silly addNameRange     '2.9.7',
+621 silly addNameRange     '3.0.0-rc1',
+621 silly addNameRange     '3.0.0-rc1-1',
+621 silly addNameRange     '3.0.0-rc1-3',
+621 silly addNameRange     '3.0.0',
+621 silly addNameRange     '3.0.1',
+621 silly addNameRange     '3.0.2',
+621 silly addNameRange     '3.0.3',
+621 silly addNameRange     '3.0.4',
+621 silly addNameRange     '3.0.5',
+621 silly addNameRange     '3.0.6',
+621 silly addNameRange     '3.0.7',
+621 silly addNameRange     '3.0.8',
+621 silly addNameRange     '3.0.9',
+621 silly addNameRange     '3.0.10',
+621 silly addNameRange     '3.1.0-0.1.0',
+621 silly addNameRange     '3.1.0-0.2.0',
+621 silly addNameRange     '3.2.0-rc.1',
+621 silly addNameRange     '3.2.0-0.1.0',
+621 silly addNameRange     '3.2.0-0.2.0',
+621 silly addNameRange     '3.2.0-0.3.0',
+621 silly addNameRange     '3.2.0-0.4.0',
+621 silly addNameRange     '3.3.0-rc.1',
+621 silly addNameRange     '3.3.0-0.1.0',
+621 silly addNameRange     '3.3.0-0.1.1',
+621 silly addNameRange     '3.3.1-0.1.2',
+621 silly addNameRange     '2.9.0-rc1' ] ]
+622 verbose addNamed [ 'cordova', '3.2.0-rc.1' ]
+623 verbose addNamed [ '3.2.0-rc.1', '3.2.0-rc.1' ]
+624 silly lockFile b949df98-cordova-3-2-0-rc-1 cordova@3.2.0-rc.1
+625 verbose lock cordova@3.2.0-rc.1 /Users/malix/.npm/b949df98-cordova-3-2-0-rc-1.lock
+626 silly lockFile 9f8bac8d-g-cordova-cordova-3-2-0-rc-1-tgz https://registry.npmjs.org/cordova/-/cordova-3.2.0-rc.1.tgz
+627 verbose lock https://registry.npmjs.org/cordova/-/cordova-3.2.0-rc.1.tgz /Users/malix/.npm/9f8bac8d-g-cordova-cordova-3-2-0-rc-1-tgz.lock
+628 verbose addRemoteTarball [ 'https://registry.npmjs.org/cordova/-/cordova-3.2.0-rc.1.tgz',
+628 verbose addRemoteTarball   '72561e67cb8f5fcdb9eed37cc22b38603253b333' ]
+629 info retry fetch attempt 1 at 09:55:57
+630 verbose fetch to= /Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/tmp.tgz
+631 http GET https://registry.npmjs.org/cordova/-/cordova-3.2.0-rc.1.tgz
+632 silly lockFile 99bfcbec-56299-0-3545483115594834-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/package
+633 silly lockFile 99bfcbec-56299-0-3545483115594834-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316156299-0.3545483115594834/package
+634 silly lockFile bb6843a2-x-npm-request-2-27-0-package-tgz tar:///Users/malix/.npm/request/2.27.0/package.tgz
+635 silly lockFile bb6843a2-x-npm-request-2-27-0-package-tgz tar:///Users/malix/.npm/request/2.27.0/package.tgz
+636 silly lockFile cff3dc22-malix-npm-request-2-27-0-package /Users/malix/.npm/request/2.27.0/package
+637 verbose lock /Users/malix/.npm/request/2.27.0/package /Users/malix/.npm/cff3dc22-malix-npm-request-2-27-0-package.lock
+638 silly lockFile cff3dc22-malix-npm-request-2-27-0-package /Users/malix/.npm/request/2.27.0/package
+639 silly lockFile cff3dc22-malix-npm-request-2-27-0-package /Users/malix/.npm/request/2.27.0/package
+640 verbose tar unpack /Users/malix/.npm/request/2.27.0/package.tgz
+641 silly lockFile 4c9a298a-malix-npm-request-2-27-0-package tar:///Users/malix/.npm/request/2.27.0/package
+642 verbose lock tar:///Users/malix/.npm/request/2.27.0/package /Users/malix/.npm/4c9a298a-malix-npm-request-2-27-0-package.lock
+643 silly lockFile bb6843a2-x-npm-request-2-27-0-package-tgz tar:///Users/malix/.npm/request/2.27.0/package.tgz
+644 verbose lock tar:///Users/malix/.npm/request/2.27.0/package.tgz /Users/malix/.npm/bb6843a2-x-npm-request-2-27-0-package-tgz.lock
+645 silly gunzTarPerm modes [ '755', '644' ]
+646 silly gunzTarPerm extractEntry package.json
+647 silly gunzTarPerm extractEntry .npmignore
+648 silly gunzTarPerm extractEntry README.md
+649 silly gunzTarPerm extractEntry LICENSE
+650 silly gunzTarPerm extractEntry index.js
+651 silly gunzTarPerm extractEntry request.js
+652 silly gunzTarPerm extractEntry lib/copy.js
+653 silly gunzTarPerm extractEntry lib/debug.js
+654 http 200 https://registry.npmjs.org/cordova/-/cordova-3.2.0-rc.1.tgz
+655 silly gunzTarPerm extractEntry lib/getSafe.js
+656 silly gunzTarPerm extractEntry tests/test-https-strict.js
+657 silly gunzTarPerm extractEntry tests/test-headers.js
+658 silly gunzTarPerm extractEntry tests/test-http-signature.js
+659 silly gunzTarPerm extractEntry tests/test-httpModule.js
+660 silly gunzTarPerm extractEntry tests/run.js
+661 silly gunzTarPerm extractEntry tests/test-hawk.js
+662 silly gunzTarPerm extractEntry tests/test-isUrl.js
+663 silly gunzTarPerm extractEntry tests/test-localAddress.js
+664 silly gunzTarPerm extractEntry tests/test-oauth.js
+665 silly gunzTarPerm extractEntry tests/test-onelineproxy.js
+666 silly gunzTarPerm extractEntry tests/test-params.js
+667 verbose tar unpack /Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/tmp.tgz
+668 silly lockFile 3e8baeda-57590-0-9841856802813709-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/package
+669 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/package /Users/malix/.npm/3e8baeda-57590-0-9841856802813709-package.lock
+670 silly lockFile fbc8594c-57590-0-9841856802813709-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/tmp.tgz
+671 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/tmp.tgz /Users/malix/.npm/fbc8594c-57590-0-9841856802813709-tmp-tgz.lock
+672 silly gunzTarPerm extractEntry tests/test-form.js
+673 silly gunzTarPerm extractEntry tests/test-piped-redirect.js
+674 silly gunzTarPerm modes [ '755', '644' ]
+675 silly gunzTarPerm extractEntry package.json
+676 silly gunzTarPerm extractEntry tests/test-follow-all.js
+677 silly gunzTarPerm extractEntry tests/test-pipes.js
+678 silly gunzTarPerm extractEntry .npmignore
+679 silly gunzTarPerm extractEntry README.md
+680 silly gunzTarPerm extractEntry tests/test-follow-all-303.js
+681 silly gunzTarPerm extractEntry tests/test-pool.js
+682 silly gunzTarPerm extractEntry cordova.js
+683 silly gunzTarPerm extractEntry platforms.js
+684 silly gunzTarPerm extractEntry bin/cordova
+685 silly gunzTarPerm extractEntry tests/test-errors.js
+686 silly gunzTarPerm extractEntry tests/test-protocol-changing-redirect.js
+687 silly gunzTarPerm extractEntry tests/test-emptyBody.js
+688 silly gunzTarPerm extractEntry tests/test-proxy.js
+689 silly gunzTarPerm extractEntry tests/test-digest-auth.js
+690 silly gunzTarPerm extractEntry tests/test-qs.js
+691 silly gunzTarPerm extractEntry templates/config.xml
+692 silly gunzTarPerm extractEntry .reviewboardrc
+693 silly gunzTarPerm extractEntry tests/test-defaults.js
+694 silly gunzTarPerm extractEntry tests/test-redirect.js
+695 silly gunzTarPerm extractEntry tests/test-body.js
+696 silly gunzTarPerm extractEntry RELEASENOTES.md
+697 silly gunzTarPerm extractEntry VERSION
+698 silly gunzTarPerm extractEntry scripts/cordova.completion
+699 silly gunzTarPerm extractEntry spec/build.spec.js
+700 silly gunzTarPerm extractEntry tests/test-s3.js
+701 silly gunzTarPerm extractEntry tests/test-basic-auth.js
+702 silly gunzTarPerm extractEntry tests/test-timeout.js
+703 silly gunzTarPerm extractEntry tests/test-agentOptions.js
+704 silly gunzTarPerm extractEntry spec/help.spec.js
+705 silly gunzTarPerm extractEntry spec/helper.js
+706 silly gunzTarPerm extractEntry tests/test-toJSON.js
+707 silly gunzTarPerm extractEntry tests/server.js
+708 silly gunzTarPerm extractEntry spec/hooker.spec.js
+709 silly gunzTarPerm extractEntry spec/info.spec.js
+710 silly gunzTarPerm extractEntry spec/emulate.spec.js
+711 silly gunzTarPerm extractEntry spec/wrappers.spec.js
+712 silly gunzTarPerm extractEntry tests/test-tunnel.js
+713 silly gunzTarPerm extractEntry tests/test-https.js
+714 silly gunzTarPerm extractEntry tests/ssl/ca/server.js
+715 silly gunzTarPerm extractEntry tests/ssl/ca/ca.srl
+716 silly gunzTarPerm extractEntry spec/platform.spec.js
+717 silly gunzTarPerm extractEntry spec/plugin.spec.js
+718 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crt
+719 silly gunzTarPerm extractEntry tests/ssl/ca/ca.csr
+720 silly gunzTarPerm extractEntry spec/plugin_parser.spec.js
+721 silly gunzTarPerm extractEntry spec/prepare.spec.js
+722 silly gunzTarPerm extractEntry tests/ssl/ca/ca.key
+723 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crl
+724 silly gunzTarPerm extractEntry spec/create.spec.js
+725 silly gunzTarPerm extractEntry spec/run.spec.js
+726 silly gunzTarPerm extractEntry tests/ssl/ca/server.cnf
+727 silly gunzTarPerm extractEntry tests/ssl/ca/server.crt
+728 silly gunzTarPerm extractEntry tests/ssl/ca/server.csr
+729 silly gunzTarPerm extractEntry tests/ssl/ca/ca.cnf
+730 silly gunzTarPerm extractEntry spec/config_parser.spec.js
+731 silly gunzTarPerm extractEntry spec/serve.spec.js
+732 silly gunzTarPerm extractEntry tests/ssl/ca/server.key
+733 silly gunzTarPerm extractEntry tests/ssl/npm-ca.crt
+734 silly gunzTarPerm extractEntry spec/compile.spec.js
+735 silly gunzTarPerm extractEntry spec/util.spec.js
+736 silly gunzTarPerm extractEntry tests/ssl/test.crt
+737 silly gunzTarPerm extractEntry tests/ssl/test.key
+738 silly gunzTarPerm extractEntry spec/cli.spec.js
+739 silly gunzTarPerm extractEntry spec/xml-helpers.spec.js
+740 silly gunzTarPerm extractEntry tests/googledoodle.jpg
+741 silly gunzTarPerm extractEntry tests/squid.conf
+742 silly gunzTarPerm extractEntry tests/unicycle.jpg
+743 silly gunzTarPerm extractEntry spec/lazy_load.spec.js
+744 silly gunzTarPerm extractEntry spec/metadata/android_parser.spec.js
+745 silly gunzTarPerm extractEntry spec/metadata/blackberry_parser.spec.js
+746 silly gunzTarPerm extractEntry spec/metadata/firefoxos_parser.spec.js
+747 silly gunzTarPerm extractEntry spec/metadata/ios_parser.spec.js
+748 silly gunzTarPerm extractEntry spec/metadata/windows8_parser.spec.js
+749 silly gunzTarPerm extractEntry spec/metadata/wp7_parser.spec.js
+750 silly gunzTarPerm extractEntry spec/metadata/wp8_parser.spec.js
+751 silly gunzTarPerm extractEntry src/build.js
+752 silly gunzTarPerm extractEntry src/events.js
+753 silly gunzTarPerm extractEntry src/help.js
+754 silly gunzTarPerm extractEntry src/hooker.js
+755 silly gunzTarPerm extractEntry src/emulate.js
+756 silly gunzTarPerm extractEntry src/cli.js
+757 silly gunzTarPerm extractEntry src/util.js
+758 silly gunzTarPerm extractEntry src/platform.js
+759 silly gunzTarPerm extractEntry src/plugin.js
+760 silly gunzTarPerm extractEntry src/plugin_parser.js
+761 silly gunzTarPerm extractEntry src/create.js
+762 silly gunzTarPerm extractEntry src/prepare.js
+763 silly gunzTarPerm extractEntry src/config_parser.js
+764 silly gunzTarPerm extractEntry src/ripple.js
+765 silly gunzTarPerm extractEntry src/config.js
+766 silly gunzTarPerm extractEntry src/run.js
+767 silly gunzTarPerm extractEntry src/compile.js
+768 silly gunzTarPerm extractEntry src/serve.js
+769 silly gunzTarPerm extractEntry src/info.js
+770 silly gunzTarPerm extractEntry src/xml-helpers.js
+771 silly gunzTarPerm extractEntry src/lazy_load.js
+772 silly gunzTarPerm extractEntry src/metadata/android_parser.js
+773 silly gunzTarPerm extractEntry src/metadata/blackberry10_parser.js
+774 silly gunzTarPerm extractEntry src/metadata/firefoxos_parser.js
+775 silly gunzTarPerm extractEntry src/metadata/ios_parser.js
+776 silly gunzTarPerm extractEntry src/metadata/windows8_parser.js
+777 silly gunzTarPerm extractEntry src/metadata/wp7_parser.js
+778 silly gunzTarPerm extractEntry src/metadata/wp8_parser.js
+779 silly gunzTarPerm extractEntry doc/bash.md
+780 silly gunzTarPerm extractEntry doc/help.txt
+781 silly gunzTarPerm extractEntry doc/info.txt
+782 silly gunzTarPerm extractEntry doc/platforms.txt
+783 silly lockFile 4c9a298a-malix-npm-request-2-27-0-package tar:///Users/malix/.npm/request/2.27.0/package
+784 silly lockFile 4c9a298a-malix-npm-request-2-27-0-package tar:///Users/malix/.npm/request/2.27.0/package
+785 silly lockFile bb6843a2-x-npm-request-2-27-0-package-tgz tar:///Users/malix/.npm/request/2.27.0/package.tgz
+786 silly lockFile bb6843a2-x-npm-request-2-27-0-package-tgz tar:///Users/malix/.npm/request/2.27.0/package.tgz
+787 verbose chmod /Users/malix/.npm/request/2.27.0/package.tgz 644
+788 verbose chown /Users/malix/.npm/request/2.27.0/package.tgz [ 36397529, 132145106 ]
+789 silly lockFile 601afcd9-s-org-request-request-2-27-0-tgz https://registry.npmjs.org/request/-/request-2.27.0.tgz
+790 silly lockFile 601afcd9-s-org-request-request-2-27-0-tgz https://registry.npmjs.org/request/-/request-2.27.0.tgz
+791 silly lockFile 7b48fbe0-request-2-27-0 request@2.27.0
+792 silly lockFile 7b48fbe0-request-2-27-0 request@2.27.0
+793 silly lockFile 3e8baeda-57590-0-9841856802813709-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/package
+794 silly lockFile 3e8baeda-57590-0-9841856802813709-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/package
+795 silly lockFile fbc8594c-57590-0-9841856802813709-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/tmp.tgz
+796 silly lockFile fbc8594c-57590-0-9841856802813709-tmp-tgz tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/tmp.tgz
+797 verbose tar pack [ '/Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz',
+797 verbose tar pack   '/Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/package' ]
+798 verbose tarball /Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz
+799 verbose folder /Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/package
+800 silly lockFile 3e8baeda-57590-0-9841856802813709-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/package
+801 verbose lock tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/package /Users/malix/.npm/3e8baeda-57590-0-9841856802813709-package.lock
+802 silly lockFile 7ced5f20-m-cordova-3-2-0-rc-1-package-tgz tar:///Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz
+803 verbose lock tar:///Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz /Users/malix/.npm/7ced5f20-m-cordova-3-2-0-rc-1-package-tgz.lock
+804 silly lockFile 3e8baeda-57590-0-9841856802813709-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/package
+805 silly lockFile 3e8baeda-57590-0-9841856802813709-package tar:///Users/malix/tmp/npm-87305-TGvleWZH/1390316157590-0.9841856802813709/package
+806 silly lockFile 7ced5f20-m-cordova-3-2-0-rc-1-package-tgz tar:///Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz
+807 silly lockFile 7ced5f20-m-cordova-3-2-0-rc-1-package-tgz tar:///Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz
+808 silly lockFile 46b9640d-x-npm-cordova-3-2-0-rc-1-package /Users/malix/.npm/cordova/3.2.0-rc.1/package
+809 verbose lock /Users/malix/.npm/cordova/3.2.0-rc.1/package /Users/malix/.npm/46b9640d-x-npm-cordova-3-2-0-rc-1-package.lock
+810 silly lockFile 46b9640d-x-npm-cordova-3-2-0-rc-1-package /Users/malix/.npm/cordova/3.2.0-rc.1/package
+811 silly lockFile 46b9640d-x-npm-cordova-3-2-0-rc-1-package /Users/malix/.npm/cordova/3.2.0-rc.1/package
+812 verbose tar unpack /Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz
+813 silly lockFile f55bbb2d-x-npm-cordova-3-2-0-rc-1-package tar:///Users/malix/.npm/cordova/3.2.0-rc.1/package
+814 verbose lock tar:///Users/malix/.npm/cordova/3.2.0-rc.1/package /Users/malix/.npm/f55bbb2d-x-npm-cordova-3-2-0-rc-1-package.lock
+815 silly lockFile 7ced5f20-m-cordova-3-2-0-rc-1-package-tgz tar:///Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz
+816 verbose lock tar:///Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz /Users/malix/.npm/7ced5f20-m-cordova-3-2-0-rc-1-package-tgz.lock
+817 silly gunzTarPerm modes [ '755', '644' ]
+818 silly gunzTarPerm extractEntry package.json
+819 silly gunzTarPerm extractEntry .npmignore
+820 silly gunzTarPerm extractEntry README.md
+821 silly gunzTarPerm extractEntry cordova.js
+822 silly gunzTarPerm extractEntry platforms.js
+823 silly gunzTarPerm extractEntry bin/cordova
+824 silly gunzTarPerm extractEntry templates/config.xml
+825 silly gunzTarPerm extractEntry .reviewboardrc
+826 silly gunzTarPerm extractEntry RELEASENOTES.md
+827 silly gunzTarPerm extractEntry VERSION
+828 silly gunzTarPerm extractEntry scripts/cordova.completion
+829 silly gunzTarPerm extractEntry spec/build.spec.js
+830 silly gunzTarPerm extractEntry spec/help.spec.js
+831 silly gunzTarPerm extractEntry spec/helper.js
+832 silly gunzTarPerm extractEntry spec/hooker.spec.js
+833 silly gunzTarPerm extractEntry spec/info.spec.js
+834 silly gunzTarPerm extractEntry spec/emulate.spec.js
+835 silly gunzTarPerm extractEntry spec/wrappers.spec.js
+836 silly gunzTarPerm extractEntry spec/platform.spec.js
+837 silly gunzTarPerm extractEntry spec/plugin.spec.js
+838 silly gunzTarPerm extractEntry spec/plugin_parser.spec.js
+839 silly gunzTarPerm extractEntry spec/prepare.spec.js
+840 silly gunzTarPerm extractEntry spec/create.spec.js
+841 silly gunzTarPerm extractEntry spec/run.spec.js
+842 silly gunzTarPerm extractEntry spec/config_parser.spec.js
+843 silly gunzTarPerm extractEntry spec/serve.spec.js
+844 silly gunzTarPerm extractEntry spec/compile.spec.js
+845 silly gunzTarPerm extractEntry spec/util.spec.js
+846 silly gunzTarPerm extractEntry spec/cli.spec.js
+847 silly gunzTarPerm extractEntry spec/xml-helpers.spec.js
+848 silly gunzTarPerm extractEntry spec/lazy_load.spec.js
+849 silly gunzTarPerm extractEntry spec/metadata/android_parser.spec.js
+850 silly gunzTarPerm extractEntry spec/metadata/blackberry_parser.spec.js
+851 silly gunzTarPerm extractEntry spec/metadata/firefoxos_parser.spec.js
+852 silly gunzTarPerm extractEntry spec/metadata/ios_parser.spec.js
+853 silly gunzTarPerm extractEntry spec/metadata/windows8_parser.spec.js
+854 silly gunzTarPerm extractEntry spec/metadata/wp7_parser.spec.js
+855 silly gunzTarPerm extractEntry spec/metadata/wp8_parser.spec.js
+856 silly gunzTarPerm extractEntry src/build.js
+857 silly gunzTarPerm extractEntry src/events.js
+858 silly gunzTarPerm extractEntry src/help.js
+859 silly gunzTarPerm extractEntry src/hooker.js
+860 silly gunzTarPerm extractEntry src/emulate.js
+861 silly gunzTarPerm extractEntry src/cli.js
+862 silly gunzTarPerm extractEntry src/util.js
+863 silly gunzTarPerm extractEntry src/platform.js
+864 silly gunzTarPerm extractEntry src/plugin.js
+865 silly gunzTarPerm extractEntry src/plugin_parser.js
+866 silly gunzTarPerm extractEntry src/create.js
+867 silly gunzTarPerm extractEntry src/prepare.js
+868 silly gunzTarPerm extractEntry src/config_parser.js
+869 silly gunzTarPerm extractEntry src/ripple.js
+870 silly gunzTarPerm extractEntry src/config.js
+871 silly gunzTarPerm extractEntry src/run.js
+872 silly gunzTarPerm extractEntry src/compile.js
+873 silly gunzTarPerm extractEntry src/serve.js
+874 silly gunzTarPerm extractEntry src/info.js
+875 silly gunzTarPerm extractEntry src/xml-helpers.js
+876 silly gunzTarPerm extractEntry src/lazy_load.js
+877 silly gunzTarPerm extractEntry src/metadata/android_parser.js
+878 silly gunzTarPerm extractEntry src/metadata/blackberry10_parser.js
+879 silly gunzTarPerm extractEntry src/metadata/firefoxos_parser.js
+880 silly gunzTarPerm extractEntry src/metadata/ios_parser.js
+881 silly gunzTarPerm extractEntry src/metadata/windows8_parser.js
+882 silly gunzTarPerm extractEntry src/metadata/wp7_parser.js
+883 silly gunzTarPerm extractEntry src/metadata/wp8_parser.js
+884 silly gunzTarPerm extractEntry doc/bash.md
+885 silly gunzTarPerm extractEntry doc/help.txt
+886 silly gunzTarPerm extractEntry doc/info.txt
+887 silly gunzTarPerm extractEntry doc/platforms.txt
+888 silly lockFile f55bbb2d-x-npm-cordova-3-2-0-rc-1-package tar:///Users/malix/.npm/cordova/3.2.0-rc.1/package
+889 silly lockFile f55bbb2d-x-npm-cordova-3-2-0-rc-1-package tar:///Users/malix/.npm/cordova/3.2.0-rc.1/package
+890 silly lockFile 7ced5f20-m-cordova-3-2-0-rc-1-package-tgz tar:///Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz
+891 silly lockFile 7ced5f20-m-cordova-3-2-0-rc-1-package-tgz tar:///Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz
+892 verbose chmod /Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz 644
+893 verbose chown /Users/malix/.npm/cordova/3.2.0-rc.1/package.tgz [ 36397529, 132145106 ]
+894 silly lockFile 9f8bac8d-g-cordova-cordova-3-2-0-rc-1-tgz https://registry.npmjs.org/cordova/-/cordova-3.2.0-rc.1.tgz
+895 silly lockFile 9f8bac8d-g-cordova-cordova-3-2-0-rc-1-tgz https://registry.npmjs.org/cordova/-/cordova-3.2.0-rc.1.tgz
+896 silly lockFile b949df98-cordova-3-2-0-rc-1 cordova@3.2.0-rc.1
+897 silly lockFile b949df98-cordova-3-2-0-rc-1 cordova@3.2.0-rc.1
+898 silly lockFile 4bcd23d2-cordova-3-2-0 cordova@~3.2.0
+899 silly lockFile 4bcd23d2-cordova-3-2-0 cordova@~3.2.0
+900 info trying registry request attempt 3 at 09:56:56
+901 http GET https://registry.npmjs.org/shelljs/0.2.6
+902 http 500 https://registry.npmjs.org/shelljs/0.2.6
+903 verbose bad json Internal routing error
+903 verbose bad json
+903 verbose bad json Sorry, we cannot connect to the intended server.
+903 verbose bad json
+903 verbose bad json We have just been notified of this problem. We will correct it as soon as possible.
+903 verbose bad json
+903 verbose bad json Feel free to contact us if you have any questions: support@iriscouch.com
+904 error registry error parsing json
+905 silly registry.get cb [ 500,
+905 silly registry.get   { date: 'Tue, 21 Jan 2014 14:56:57 GMT',
+905 silly registry.get     server: 'Apache',
+905 silly registry.get     'content-type': 'text/plain',
+905 silly registry.get     'cache-control': 'max-age=0',
+905 silly registry.get     'content-length': '239',
+905 silly registry.get     'accept-ranges': 'bytes',
+905 silly registry.get     via: '1.1 varnish',
+905 silly registry.get     age: '0',
+905 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+905 silly registry.get     'x-cache': 'MISS',
+905 silly registry.get     'x-cache-hits': '0',
+905 silly registry.get     'x-timer': 'S1390316216.920864105,VS0,VE249',
+905 silly registry.get     connection: 'close' } ]
+906 silly lockFile 542b9617-shelljs-0-2-6 shelljs@0.2.6
+907 silly lockFile 542b9617-shelljs-0-2-6 shelljs@0.2.6
+908 verbose about to build /usr/local/lib/node_modules/ionic
+909 info /usr/local/lib/node_modules/ionic unbuild
+910 info preuninstall ionic@0.9.10
+911 info uninstall ionic@0.9.10
+912 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild ionic@0.9.10
+913 verbose /usr/local/bin,[object Object] binRoot
+914 info postuninstall ionic@0.9.10
+915 error SyntaxError: Unexpected token I
+915 error Internal routing error
+915 error
+915 error Sorry, we cannot connect to the intended server.
+915 error
+915 error We have just been notified of this problem. We will correct it as soon as possible.
+915 error
+915 error Feel free to contact us if you have any questions: support@iriscouch.com
+915 error
+915 error     at Object.parse (native)
+915 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:238:23)
+915 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:129:22)
+915 error     at Request.EventEmitter.emit (events.js:98:17)
+915 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:873:14)
+915 error     at Request.EventEmitter.emit (events.js:117:20)
+915 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:824:12)
+915 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+915 error     at _stream_readable.js:920:16
+915 error     at process._tickCallback (node.js:415:13)
+916 error If you need help, you may report this log at:
+916 error     <http://github.com/isaacs/npm/issues>
+916 error or email it to:
+916 error     <npm-@googlegroups.com>
+917 error System Darwin 11.4.2
+918 error command "node" "/usr/local/bin/npm" "install" "-g" "ionic"
+919 error cwd /Users/malix/pubnub/devTech-io.github.io
+920 error node -v v0.10.22
+921 error npm -v 1.3.14
+922 error type unexpected_token
+923 verbose exit [ 1, true ]
